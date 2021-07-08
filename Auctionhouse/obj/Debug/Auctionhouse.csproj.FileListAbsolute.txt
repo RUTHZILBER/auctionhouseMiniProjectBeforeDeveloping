@@ -1,0 +1,62 @@
+E:\תשעט\Auctionhouse\Auctionhouse\bin\Debug\Auctionhouse.exe.config
+E:\תשעט\Auctionhouse\Auctionhouse\bin\Debug\Auctionhouse.exe
+E:\תשעט\Auctionhouse\Auctionhouse\bin\Debug\Auctionhouse.pdb
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.csprojResolveAssemblyReference.cache
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Begin.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.SaleFRM2.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Sale3FRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Sale4FRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Sale5FRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.AuctionhousesFRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.BeginA.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.BeginB.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.BeginC.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.CategoryFRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.ClientFRMC.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.ClientFRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Day_kindFRN.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchAuctionhouss.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchSale.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.ProductFRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.SaleFRM1.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchClient.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchProduct.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchShow_place.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Show_placeFRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Properties.Resources.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.csproj.GenerateResource.Cache
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.csproj.CoreCompileInputs.cache
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.exe
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.pdb
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\bin\Debug\Auctionhouse.exe.config
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\bin\Debug\Auctionhouse.exe
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\bin\Debug\Auctionhouse.pdb
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.csprojAssemblyReference.cache
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Begin.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.SaleFRM2.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Sale3FRM.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Sale4FRM.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Sale5FRM.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.AuctionhousesFRM.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.BeginA.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.BeginB.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.BeginC.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.CategoryFRM.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.ClientFRMC.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.ClientFRM.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Day_kindFRN.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchAuctionhouss.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchSale.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.ProductFRM.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.SaleFRM1.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchClient.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchProduct.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.FrmSearchShow_place.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Show_placeFRM.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Properties.Resources.resources
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.csproj.GenerateResource.cache
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.csproj.CoreCompileInputs.cache
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.exe
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.pdb
+C:\רות פרויקט 2019\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Product1FRM.resources
+E:\תשעט\Auctionhouse\Auctionhouse\obj\Debug\Auctionhouse.Gui.Product1FRM.resources

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDE7F286-14D2-40D9-BE32-B88D9D335CE5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Auctionhouse</RootNamespace>
+    <AssemblyName>Auctionhouse</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Access, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Begin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Begin.Designer.cs">
+      <DependentUpon>Begin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Dal.cs" />
+    <Compile Include="Db\Sale_offerDB.cs" />
+    <Compile Include="Db\AuctionhousesDB.cs" />
+    <Compile Include="Db\CategoryDB.cs" />
+    <Compile Include="Db\ClientDB.cs" />
+    <Compile Include="Db\Day_kindDB.cs" />
+    <Compile Include="Db\GeneralDB.cs" />
+    <Compile Include="Db\HoursDB.cs" />
+    <Compile Include="Db\ProductDB.cs" />
+    <Compile Include="Db\SaleDB.cs" />
+    <Compile Include="Db\Show_placeDB.cs" />
+    <Compile Include="Gui\2SaleFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\2SaleFRM.Designer.cs">
+      <DependentUpon>2SaleFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\3SaleFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\3SaleFRM.Designer.cs">
+      <DependentUpon>3SaleFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\4SaleFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\4SaleFRM.designer.cs">
+      <DependentUpon>4SaleFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\5SaleFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\5SaleFRM.designer.cs">
+      <DependentUpon>5SaleFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\AuctionhousesFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\AuctionhousesFRM.Designer.cs">
+      <DependentUpon>AuctionhousesFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\BeginA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\BeginA.designer.cs">
+      <DependentUpon>BeginA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\BeginC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\BeginC.Designer.cs">
+      <DependentUpon>BeginC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\BeginB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\BeginB.Designer.cs">
+      <DependentUpon>BeginB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\CategoryFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\CategoryFRM.Designer.cs">
+      <DependentUpon>CategoryFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ClientFRMC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\ClientFRMC.designer.cs">
+      <DependentUpon>ClientFRMC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ClientFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\ClientFRM.designer.cs">
+      <DependentUpon>ClientFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Day_kindFRN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Day_kindFRN.Designer.cs">
+      <DependentUpon>Day_kindFRN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FrmSearchAuctionhouss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FrmSearchAuctionhouss.Designer.cs">
+      <DependentUpon>FrmSearchAuctionhouss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FrmSearchSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FrmSearchSale.Designer.cs">
+      <DependentUpon>FrmSearchSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Product1FRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Product1FRM.Designer.cs">
+      <DependentUpon>Product1FRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\1SaleFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\1SaleFRM.Designer.cs">
+      <DependentUpon>1SaleFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FrmSearchClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FrmSearchClient.Designer.cs">
+      <DependentUpon>FrmSearchClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FrmSearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FrmSearchProduct.Designer.cs">
+      <DependentUpon>FrmSearchProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\FrmSearchShow_place.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\FrmSearchShow_place.Designer.cs">
+      <DependentUpon>FrmSearchShow_place.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\ProductFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\ProductFRM.designer.cs">
+      <DependentUpon>ProductFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gui\Show_placeFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\Show_placeFRM.Designer.cs">
+      <DependentUpon>Show_placeFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Auctionhouses.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Day_kind.cs" />
+    <Compile Include="Models\Hours.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Sale.cs" />
+    <Compile Include="Models\Sale_offer.cs" />
+    <Compile Include="Models\Show_place.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilitis\ValidateUtilities.cs" />
+    <EmbeddedResource Include="Begin.resx">
+      <DependentUpon>Begin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\2SaleFRM.resx">
+      <DependentUpon>2SaleFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\3SaleFRM.resx">
+      <DependentUpon>3SaleFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\4SaleFRM.resx">
+      <DependentUpon>4SaleFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\5SaleFRM.resx">
+      <DependentUpon>5SaleFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\AuctionhousesFRM.resx">
+      <DependentUpon>AuctionhousesFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\BeginA.resx">
+      <DependentUpon>BeginA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\BeginC.resx">
+      <DependentUpon>BeginC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\BeginB.resx">
+      <DependentUpon>BeginB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\CategoryFRM.resx">
+      <DependentUpon>CategoryFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ClientFRMC.resx">
+      <DependentUpon>ClientFRMC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ClientFRM.resx">
+      <DependentUpon>ClientFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Day_kindFRN.resx">
+      <DependentUpon>Day_kindFRN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FrmSearchAuctionhouss.resx">
+      <DependentUpon>FrmSearchAuctionhouss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FrmSearchSale.resx">
+      <DependentUpon>FrmSearchSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Product1FRM.resx">
+      <DependentUpon>Product1FRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\1SaleFRM.resx">
+      <DependentUpon>1SaleFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FrmSearchClient.resx">
+      <DependentUpon>FrmSearchClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FrmSearchProduct.resx">
+      <DependentUpon>FrmSearchProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\FrmSearchShow_place.resx">
+      <DependentUpon>FrmSearchShow_place.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\ProductFRM.resx">
+      <DependentUpon>ProductFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\Show_placeFRM.resx">
+      <DependentUpon>Show_placeFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
